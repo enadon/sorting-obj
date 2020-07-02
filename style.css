@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.sort-options {
+    display: flex;
+    margin: 20px auto;
+    max-width: 900px;
+    justify-content: space-evenly;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.list-item:nth-of-type(odd) {
+    background-color: #af96fa;
+}
+
+
+div .item-title {
+    width: 250px;
+}
+
+button {
+    outline: none;
+    background-color: #fff;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
